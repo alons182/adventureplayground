@@ -851,6 +851,7 @@ img {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 0;
 }
 .banner__video {
   overflow: hidden;
@@ -1032,7 +1033,7 @@ img {
   text-align: center;
   max-width: 1024px;
   margin: 0 auto 2rem;
-  overflow: hidden;
+  overflow-x: scroll;
 }
 .map__bg {
   background: url("img/world-map.png") no-repeat;
@@ -1293,6 +1294,11 @@ img {
   .contact-form input[type="email"],
   .contact-form textarea {
     width: 400px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .map__container {
+    overflow: hidden;
   }
 }
 .footer {

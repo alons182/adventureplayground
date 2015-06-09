@@ -59,7 +59,7 @@
         <main class="main">
             <section class="map">
                 <div class="inner">
-                    
+                    <h1 class="txt-center">Projects</h1>
                    <div class="map__container">
                        
                        <div class="map__bg">
