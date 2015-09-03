@@ -692,6 +692,10 @@ img {
   z-index: 0;
   position: relative;
 }
+.top__social {
+  display: inline-block;
+  vertical-align: middle;
+}
 .top__social__link {
   padding: 0.5rem;
   line-height: 50px;
@@ -699,6 +703,21 @@ img {
   color: #fff;
 }
 .top__social__link:hover {
+  color: #51b344;
+}
+.top__social span {
+  color: #fff;
+}
+.top__languages {
+  display: inline-block;
+  vertical-align: middle;
+  color: #fff;
+  margin-right: 1rem;
+}
+.top__languages a {
+  color: #fff;
+}
+.top__languages a:hover {
   color: #51b344;
 }
 @media screen and (min-width: 980px) {
@@ -1054,10 +1073,23 @@ img {
   -ms-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+.map__label-country img {
+  width: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
 .map__label-country:hover {
   font-size: 2rem;
   line-height: 25px;
   z-index: 10;
+}
+.map__label-country:hover img {
+  width: 50px;
 }
 .map__label-country.label-guatemala {
   background-color: #e61f26;
@@ -1077,11 +1109,11 @@ img {
 .map__label-country.label-jamaica {
   background-color: #51b344;
   top: 240px;
-  left: 238px;
+  left: 262px;
 }
 .map__label-country.label-santalu {
   background-color: #2f2f2f;
-  top: 260px;
+  top: 263px;
   left: 238px;
 }
 .map__label-country.label-bolivia {

@@ -1,3 +1,4 @@
+
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 				
 	<h1 class="main__content__title"><?php the_title(); ?></h1>

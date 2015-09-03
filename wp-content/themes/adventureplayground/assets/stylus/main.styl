@@ -119,12 +119,25 @@ img
 	position relative
 	
 	&__social
+		display inline-block
+		vertical-align middle
 		&__link
 			padding .5rem
 			line-height 50px
 			font-size 1.5rem
 			color white
 			
+			&:hover
+				color verde2
+		span 
+			color white
+	&__languages
+		display inline-block
+		vertical-align middle
+		color white
+		margin-right 1rem
+		a 
+			color white
 			&:hover
 				color verde2
 				
@@ -421,10 +434,17 @@ img
 		background-color amarillo
 		cursor pointer
 		transition all .3s ease
+		img 
+			width 20px
+			display inline-block
+			vertical-align middle
+			transition all .3s ease
 		&:hover
 			font-size 2rem
 			line-height 25px
 			z-index 10
+			img
+				width 50px
 		
 		&.label-guatemala
 			background-color rojo
@@ -441,10 +461,10 @@ img
 		&.label-jamaica
 			background-color verde2
 			top 240px
-			left 238px
+			left 262px
 		&.label-santalu
 			background-color oscuro
-			top 260px
+			top 263px
 			left 238px
 		&.label-bolivia
 			background-color gris

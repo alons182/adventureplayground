@@ -12,47 +12,17 @@
                             <source src="<?php echo get_template_directory_uri();  ?>/img/bg.ogv" type="video/ogg" />HTML5 vídeo no es soportado por este navegador</video>
             </div>
             <div class="banner__menu inner">
-                <article class="banner__menu__item">
-                    <a href="#" class="banner__menu__item__link">
-                        <img src="http://lorempixel.com/257/164/sports/1/" alt="1" />
-                        <span class="banner__menu__item__readmore">Read more +</span>
-                    </a>
-                    <h2 class="banner__menu__item__title">Lorem ipsum dolor</h2>
-                    <div class="banner__menu__item__description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste amet excepturi ullam facilis sunt unde illum quod rem nesciunt ut non est ea, suscipit.
-                    </div>   
-                </article>
-                <article class="banner__menu__item">
-                    <a href="#" class="banner__menu__item__link">
-                        <img src="http://lorempixel.com/257/164/sports/2/" alt="2" />
-                        <span class="banner__menu__item__readmore">Read more +</span>
-                    </a>
-                    <h2 class="banner__menu__item__title">Lorem ipsum dolor</h2>
-                    <div class="banner__menu__item__description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste amet excepturi ullam facilis sunt unde illum quod rem nesciunt ut non est ea, suscipit.
-                    </div>   
-                </article>
-                <article class="banner__menu__item">
-                    <a href="#" class="banner__menu__item__link">
-                        <img src="http://lorempixel.com/257/164/sports/3/" alt="3" />
-                        <span class="banner__menu__item__readmore">Read more +</span>
-                    </a>
-                    <h2 class="banner__menu__item__title">Lorem ipsum dolor</h2>
-                    <div class="banner__menu__item__description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste amet excepturi ullam facilis sunt unde illum quod rem nesciunt ut non est ea, suscipit.
-                    </div>   
-                </article>
-                <article class="banner__menu__item">
-                    <a href="#" class="banner__menu__item__link">
-                        <img src="http://lorempixel.com/257/164/sports/4/" alt="4" />
-                        <span class="banner__menu__item__readmore">Read more +</span>
-                    </a>
-                    <h2 class="banner__menu__item__title">Lorem ipsum dolor</h2>
-                    <div class="banner__menu__item__description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste amet excepturi ullam facilis sunt unde illum quod rem nesciunt ut non est ea, suscipit.
-                    </div>   
-                </article>
-                
+              
+              <?php query_posts( 'post_type=page&page_id=286' ); ?>
+                <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+
+                        <?php the_content(); ?>
+        
+                    <?php endwhile; ?>
+                    <!-- post navigation -->
+                  
+                <?php endif; ?>
+                <?php wp_reset_query(); ?>
             </div>
         </section>
 
@@ -64,25 +34,25 @@
                        
                        <div class="map__bg">
                            <span class="map__label-country label-guatemala" data-country="guatemala">
-                               Guatemala
+                               <img src="<?php echo get_template_directory_uri();  ?>/img/flags/gt.jpg" alt="Guatemala"/> Guatemala
                            </span>
                            <span class="map__label-country label-honduras" data-country="honduras">
-                               Honduras
+                               <img src="<?php echo get_template_directory_uri();  ?>/img/flags/hn.jpg" alt="Honduras"/> Honduras
                            </span>
                            <span class="map__label-country label-cr" data-country="costa-rica">
-                               Costa Rica
+                               <img src="<?php echo get_template_directory_uri();  ?>/img/flags/cr.jpg" alt="Costa Rica"/> Costa Rica 
                            </span>
                            <span class="map__label-country label-jamaica" data-country="jamaica">
-                               Jamaica
+                               <img src="<?php echo get_template_directory_uri();  ?>/img/flags/jm.jpg" alt="Jamaica"/> Jamaica
                            </span>
                            <span class="map__label-country label-santalu" data-country="santa-lucia">
-                               Santa Lucia
+                               <img src="<?php echo get_template_directory_uri();  ?>/img/flags/lc.jpg" alt="Santa Lucia"/> Santa Lucia
                            </span>
                            <span class="map__label-country label-bolivia" data-country="bolivia">
-                               Bolivia
+                               <img src="<?php echo get_template_directory_uri();  ?>/img/flags/bo.jpg" alt="Bolivia"/> Bolivia
                            </span>
                             <span class="map__label-country label-laos" data-country="laos">
-                               Laos
+                               <img src="<?php echo get_template_directory_uri();  ?>/img/flags/la.jpg" alt="Laos"/> Laos
                            </span>
 
                            <div class="map__country animated zoomIn" data-costa-rica>

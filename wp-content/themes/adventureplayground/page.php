@@ -7,46 +7,24 @@
                         <source src="<?php echo get_template_directory_uri();  ?>/img/bg.ogv" type="video/ogg" />HTML5 vídeo no es soportado por este navegador</video>
         </div>
         <div class="banner__menu inner">
-            <article class="banner__menu__item">
-                <a href="#" class="banner__menu__item__link">
-                    <img src="http://lorempixel.com/257/164/sports/1/" alt="1" />
-                    <span class="banner__menu__item__readmore">Read more +</span>
-                </a>
-                <h2 class="banner__menu__item__title">Lorem ipsum dolor</h2>
-                 
-            </article>
-            <article class="banner__menu__item">
-                <a href="#" class="banner__menu__item__link">
-                    <img src="http://lorempixel.com/257/164/sports/2/" alt="2" />
-                    <span class="banner__menu__item__readmore">Read more +</span>
-                </a>
-                <h2 class="banner__menu__item__title">Lorem ipsum dolor</h2>
-                
-            </article>
-            <article class="banner__menu__item">
-                <a href="#" class="banner__menu__item__link">
-                    <img src="http://lorempixel.com/257/164/sports/3/" alt="3" />
-                    <span class="banner__menu__item__readmore">Read more +</span>
-                </a>
-                <h2 class="banner__menu__item__title">Lorem ipsum dolor</h2>
-                
-            </article>
-            <article class="banner__menu__item">
-                <a href="#" class="banner__menu__item__link">
-                    <img src="http://lorempixel.com/257/164/sports/4/" alt="4" />
-                    <span class="banner__menu__item__readmore">Read more +</span>
-                </a>
-                <h2 class="banner__menu__item__title">Lorem ipsum dolor</h2>
-                 
-            </article>
-            
-        </div>
+               
+              <?php query_posts( 'post_type=page&page_id=286' ); ?>
+                <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+
+                        <?php the_content(); ?>
+        
+                    <?php endwhile; ?>
+                    <!-- post navigation -->
+                  
+                <?php endif; ?>
+                <?php wp_reset_query(); ?>
+            </div>
     </section>
 
     <main class="main">
         <section class="content">
             <div class="inner">
-               
+                
                	<?php get_template_part( 'templates/loop' ); ?> 
 
             

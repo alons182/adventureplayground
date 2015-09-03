@@ -20,6 +20,7 @@
                            <a href="http://www.canopycostarica.com/" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/img/logo-sky.png" alt="Sky mountain"/></a>
                            <a href="http://antiguacanopytours.com/" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/img/logo-antigua.png" alt="Antigua Canopy Tours"/></a>
                            
+                           <a href="http://www.diamanteecoadventurepark.com/" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/img/logo-diamante.png" alt="Diamante Park"/></a>
                            <a href="http://www.hotelpuntaislita.com/" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/img/logo-punta-islita.png" alt="Punta Islita"/></a>
 
 

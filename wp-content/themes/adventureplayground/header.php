@@ -9,18 +9,25 @@
         <link href='http://fonts.googleapis.com/css?family=Tinos|Open+Sans' rel='stylesheet' type='text/css'>
         
         <link rel="stylesheet" href="<?php bloginfo('stylesheet_url') ?>">
+    
         <?php wp_head(); ?>
         
     </head>
     <body <?php body_class(); ?>>
         <div class="top">
             <div class="inner">
-                <div class="top__social">
-                     <a href="#" class="top__social__link"><i class="icon-facebook"></i></a>
-                     <a href="#" class="top__social__link"><i class="icon-twitter"></i></a>
-                     <a href="#" class="top__social__link"><i class="icon-google-plus"></i></a>
-                     <a href="#" class="top__social__link"><i class="icon-youtube"></i></a>
+                <div class="top__languages">
+                    <a class="languages-en" href="#" data-lang="en">English</a> |
+                    <a class="languages-es" href="#" data-lang="es">Spanish</a>
                 </div>
+                <div class="top__social">
+                     <span>We Build Adventure</span>
+                     <a href="https://www.facebook.com/CANOPYZIPLINETOURS?fref=ts" class="top__social__link"><i class="icon-facebook"></i></a>
+                     <!--<a href="#" class="top__social__link"><i class="icon-twitter"></i></a>
+                     <a href="#" class="top__social__link"><i class="icon-google-plus"></i></a>
+                     <a href="#" class="top__social__link"><i class="icon-youtube"></i></a>-->
+                </div>
+
             </div>
         </div>
         <header class="header">
