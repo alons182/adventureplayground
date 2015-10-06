@@ -894,8 +894,6 @@ img {
 }
 .banner__video #bgvid {
   width: 100%;
-  position: absolute;
-  top: -50px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -976,6 +974,11 @@ img {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
     filter: alpha(opacity=60);
   }
+  .banner__video #bgvid {
+    width: 100%;
+    position: absolute;
+    top: -50px;
+  }
   .banner__menu {
     margin-top: -3rem;
   }
@@ -986,6 +989,12 @@ img {
   }
 }
 @media screen and (min-width: 1650px) {
+  .banner__video {
+    height: 700px;
+  }
+  .banner__video:after {
+    height: 700px;
+  }
   .banner__menu__item {
     width: 257px;
   }
