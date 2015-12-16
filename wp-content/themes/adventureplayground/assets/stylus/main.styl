@@ -10,14 +10,15 @@
 @import "icons.styl"
 
 
-verde = #A5CF4D
+verde = #126a3a
 verde2 = #51B344
 rojo = #E61F26
 oscuro = #2F2F2F
 gris = #808285
 gris2 = #F5F5F5
-amarillo = #F2AE0F
-
+naranja = #f05f1d
+azul = #2d3891
+cafe = #341713
 *
 	box-sizing border-box
 
@@ -52,7 +53,7 @@ h5
 	
 h1
 	line-height 45px
-	color amarillo
+	color naranja
 h2
 h3
 	color verde2
@@ -177,7 +178,7 @@ img
 		background url('img/tree-right.png') no-repeat
 		right 0
 .header
-	background-color rgba(0, 0, 0, .75)
+	//background-color rgba(0, 0, 0, .75)
 	position absolute
 	padding-top 0
 	left 0
@@ -189,7 +190,7 @@ img
 	&__logo
 		display block
 		padding-top 2.5rem
-		width 70%
+		width 40%
 		margin 0 auto
 	&__menu
 		display none
@@ -201,22 +202,41 @@ img
 		//text-align center
 		padding-left 1rem
 		padding-right 1rem
-		
+		/*&:before
+			content ''
+			background-color cafe
+			height 5px 
+			width 100%
+			position absolute
+			left 0
+			right 0*/
 		&__item,
-		.menu-item	
+		.menu-item
+			position relative	
 			&.current
 			&.current_page_item	
 				a 
 					background-color verde
+			
 		&__link
 		a	
 			font-size 1rem
 			color white
 			padding .5rem
 			display block
+			//background-color verde
+			margin 0 .5rem
 			&:hover
-				background-color verde
-			
+				background-color verde2
+		.sub-menu
+			background-color verde
+			//position absolute
+			.menu-item
+				display block
+				&:before
+					display none
+		&__ul 
+			padding-top 15px		
 
 	&__contact
 		font-size 2rem
@@ -241,24 +261,54 @@ img
 @media screen and (min-width: 768px)
 	.header
 		&__logo
-			width 50%
+			width 200px
+			padding-top 3rem
 @media screen and (min-width: 1024px)
 	.header
-		overflow hidden
+		//overflow hidden
 		background-color transparent
+		&-rope 
+			content ''
+			background-color cafe
+			height 5px 
+			width 100%
+			position absolute
+			left 0
+			right 0
+			top 74%
 		&__logo
 			//float left
 			width 200px
 			padding-top 0
 		&__menu
 			text-align center
-			display block
+			display block !important
 			position static
 			background-color transparent
+			margin-top 15px
 			//float right
 			&__item
 			.menu-item	
 				display inline-block
+				&:before
+					content ''
+					background-image url('img/tirolesa.png');
+					background-repeat no-repeat
+					background-position center center
+					height 41px 
+					width 100%
+					position absolute
+					left 0
+					right 0
+					top -35px
+			&__link 
+			a 
+				background-color verde
+			.sub-menu
+				display none
+				position absolute
+				width 200px
+				
 		&__btn-menu
 			display none
 		&__contact
@@ -274,6 +324,8 @@ img
 	left 0
 	right 0
 	z-index 0
+	margin 0 auto
+	overflow hidden
 	
 	
 	&__video
@@ -289,7 +341,7 @@ img
 			display block
 			pointer-events none
 			content ""
-			opacity 0
+			opacity 1
 			background-color: rgba(0,0,0,0.75);
 			background-repeat: repeat;
 			height 550px
@@ -300,7 +352,17 @@ img
 			//height 100%
 			//background url("../img/banner.jpg") no-repeat
 			background-size cover
-			
+	&-links
+		position absolute
+		right 25px
+		top -36px
+		a 
+			display inline-block
+			padding 0 .5rem
+			background-color verde2 
+			color white
+			font-size 12px
+			margin 0 .2rem	
 	&__menu
 		text-align center
 		margin-top 2rem 
@@ -309,14 +371,14 @@ img
 			width 250px
 			margin 0 auto 1.5rem
 			position relative
-			background-color gris2
-			
+			//background-color gris2
+			padding 0 1rem
 			&__link
 				position relative
 				display block
 				
 				img 
-					border 5px solid verde
+					border 5px solid verde2
 			&__readmore
 				background-color verde2
 				color white
@@ -329,7 +391,7 @@ img
 			&__title
 				text-transform uppercase
 				margin-top 1rem
-				color amarillo
+				color naranja
 			&__description
 				line-height 25px
 @media screen and (min-width: 768px)
@@ -340,9 +402,9 @@ img
 			justify-content space-between
 			flex-wrap wrap 
 			
-			&__item
+			/*&__item
 				display inline-block
-				width 190px
+				width 190px*/
 
 @media screen and (min-width: 1024px)
 	.banner
@@ -355,14 +417,20 @@ img
 			#bgvid
 				width 100%
 				position absolute
-				top -50px		
+				top -50px
+				left 0
+				right 0		
 		&__menu
 			margin-top -3rem
 			
-			&__item
+			/*&__item
 				width 207px
-				font-size 13px
-				background-color gris2
+				font-size 13px*/
+				//background-color gris2
+@media screen and (min-width: 1150px)
+	.banner
+		&-links
+			right 95px
 
 @media screen and (min-width: 1650px)
 	.banner
@@ -370,10 +438,10 @@ img
 			height 700px
 			&:after
 				height 700px	
-		&__menu
+		/*&__menu
 
 			&__item
-				width 257px
+				width 257px*/
 .page-id-33
 	text-align center
 .bridges-gallery
@@ -381,7 +449,7 @@ img
 .rigging-projects
 	text-align center
 	dt 
-		background-color amarillo
+		background-color naranja
 		color white
 		text-align center
 		cursor pointer
@@ -412,7 +480,7 @@ img
 	textarea
 		height 200px
 	input[type="submit"]
-		background-color amarillo
+		background-color naranja
 		border none
 		outline none
 		color white
@@ -440,7 +508,7 @@ img
 		padding .2rem
 		line-height 12px
 		color white
-		background-color amarillo
+		background-color naranja
 		cursor pointer
 		transition all .3s ease
 		img 
@@ -464,7 +532,7 @@ img
 			top 245px
 			left 178px
 		&.label-cr
-			background-color amarillo
+			background-color naranja
 			top 281px
 			left 124px
 		&.label-jamaica
@@ -665,7 +733,7 @@ img
 
 				
 .footer
-	background-color oscuro
+	background-color cafe
 	text-align center
 	padding-top 1rem
 	padding-bottom 1rem
@@ -725,7 +793,7 @@ img
 			float right
 .table
 	thead
-		background-color amarillo
+		background-color naranja
 		color white
 	a 
 		color verde2

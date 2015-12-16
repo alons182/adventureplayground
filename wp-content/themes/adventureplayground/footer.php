@@ -60,10 +60,10 @@
                
             </div>
         </footer>
-        <div class="tree__left"></div>
+        <!--<div class="tree__left"></div>
         <div class="tree__footer__left"></div>
         <div class="tree__right"></div>
-         <div class="tree__footer__right"></div>
+         <div class="tree__footer__right"></div>-->
 
         
        

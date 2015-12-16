@@ -13,16 +13,16 @@
            
         });
 
-      /*menuContainer.hoverIntent({
+       menu.find(".menu-item-has-children").hoverIntent({
         over: function() {
-              menu.slideDown(200);
+              $(this).find(">.sub-menu").slideDown(200 );
             },
         out:  function() {
-              menu.slideUp(200);
-            }
-       // timeout: 50
+              $(this).find(">.sub-menu").slideUp(200);
+            },
+        timeout: 200
 
-      });*/
+       });
 
     // SMOOTH ANCHOR SCROLLING
     var $root = $('html, body');
