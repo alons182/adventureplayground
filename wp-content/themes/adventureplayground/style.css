@@ -609,7 +609,8 @@ h1 {
 }
 h2,
 h3 {
-  color: #51b344;
+  color: #341713;
+  font-weight: bold;
 }
 img {
   max-width: 100%;
@@ -1107,6 +1108,10 @@ img {
 .content .inner {
   background-color: #fff;
 }
+.content .inner ul {
+  margin-left: 45px;
+  margin-bottom: 15px;
+}
 .contact-form label {
   display: block;
 }
@@ -1179,36 +1184,36 @@ img {
 .map__label-country.label-guatemala {
   background-color: #e61f26;
   top: 260px;
-  left: 103px;
+  left: 153px;
 }
 .map__label-country.label-honduras {
   background-color: #126a3a;
   top: 245px;
-  left: 178px;
+  left: 228px;
 }
 .map__label-country.label-cr {
   background-color: #f05f1d;
   top: 281px;
-  left: 124px;
+  left: 174px;
 }
 .map__label-country.label-jamaica {
   background-color: #51b344;
   top: 240px;
-  left: 262px;
+  left: 312px;
 }
 .map__label-country.label-santalu {
   background-color: #2f2f2f;
   top: 263px;
-  left: 238px;
+  left: 288px;
 }
 .map__label-country.label-bolivia {
   background-color: #808285;
   top: 370px;
-  left: 248px;
+  left: 298px;
 }
 .map__label-country.label-laos {
   background-color: #808285;
-  top: 242px;
+  top: 270px;
   right: 248px;
 }
 .map__label-province {
