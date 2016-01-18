@@ -41,6 +41,43 @@ function my_add_excerpts_to_pages() {
      add_post_type_support( 'page', 'excerpt' );
 }
 
+add_filter( 'rwmb_meta_boxes', 'apg_register_meta_boxes' );
+
+function apg_register_meta_boxes( $meta_boxes )
+{
+
+    $prefix = 'rw_';
+
+    // 1st meta box
+    $meta_boxes[] = array(
+        'id'       => 'gallery',
+        'title'    => 'Gallery',
+        'pages'    => array( 'post', 'page','projects' ),
+        'context'  => 'normal',
+        'priority' => 'high',
+
+        'fields' => array(
+            
+             array(
+                'name'  => 'Images',
+                'desc'  => 'Format: Image File',
+                'id'    => $prefix . 'gallery',
+                'type'  => 'image_advanced',
+                'std'   => '',
+                'class' => 'custom-class'
+                
+            ),
+             
+             
+
+        )
+    );
+    
+
+
+    return $meta_boxes;
+}
+
 /*add_filter( 'rwmb_meta_boxes', 'showdreams_register_meta_boxes' );
 
 function showdreams_register_meta_boxes( $meta_boxes )

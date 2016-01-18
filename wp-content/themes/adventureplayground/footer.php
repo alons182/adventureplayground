@@ -14,7 +14,7 @@
                            <a href="http://www.canopyparqueaventura.com/" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/img/logo-parque-aventure.png" alt="Parque Aventure"/></a>
                            <a href="http://www.kohalazipline.com/" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/img/logo-kohala-zipline.png" alt="kohala zipline"/></a>
 
-                           <a href="http://www.centralamericantours.net/" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/img/logo-catour.png" alt="Catour"/></a>
+                           <a href="http://skyadventures.travel/skytrek/" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/img/logo-skytrek.png" alt="skytrek"/></a>
                            
                            <a href="http://www.dantalodge.com/" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/img/logo-corcovado.png" alt="Corcovado"/></a>
                            <a href="http://www.canopycostarica.com/" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/img/logo-sky.png" alt="Sky mountain"/></a>

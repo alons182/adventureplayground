@@ -735,6 +735,42 @@ img
 		&__container
 			overflow hidden
 
+.carousel
+	position relative
+	margin-bottom 1rem
+	width 400px
+	img
+		width 100%
+	.cycle-pager
+		position absolute
+		left 0
+		right 0
+		bottom 1rem
+		z-index 999
+		text-align center
+		span
+			cursor pointer
+			font-size 2rem
+			color rgba(255,255,255,.5)
+
+		.cycle-pager-active
+			color rgba(255,255,255,1)
+	#prevGallery
+	#nextGallery
+		display block
+		color white
+		position absolute
+		top 50%
+		transform translate(0, -50%)
+		z-index 999
+		font-size 4em
+		opacity .7
+		&:hover
+			opacity 1
+	#prevGallery
+		left 1rem
+	#nextGallery
+		right 1rem
 				
 .footer
 	background-color cafe
