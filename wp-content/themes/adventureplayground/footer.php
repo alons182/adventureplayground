@@ -10,18 +10,20 @@
                            <h4>Partnership</h4>
                           
                            <a href="http://www.riostropicales.com/" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/img/logo-rios-tropicales.png" alt="Rios Tropicales"/></a>
-                           <a href="#" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/img/logo-el-viejo.png" alt="El viejo"/></a>
-                           <a href="http://www.canopyparqueaventura.com/" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/img/logo-parque-aventure.png" alt="Parque Aventure"/></a>
+                           <!--<a href="#" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/img/logo-el-viejo.png" alt="El viejo"/></a>-->
+                           <!--<a href="http://www.canopyparqueaventura.com/" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/img/logo-parque-aventure.png" alt="Parque Aventure"/></a>-->
                            <a href="http://www.kohalazipline.com/" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/img/logo-kohala-zipline.png" alt="kohala zipline"/></a>
 
                            <a href="http://skyadventures.travel/skytrek/" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/img/logo-skytrek.png" alt="skytrek"/></a>
                            
-                           <a href="http://www.dantalodge.com/" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/img/logo-corcovado.png" alt="Corcovado"/></a>
-                           <a href="http://www.canopycostarica.com/" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/img/logo-sky.png" alt="Sky mountain"/></a>
-                           <a href="http://antiguacanopytours.com/" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/img/logo-antigua.png" alt="Antigua Canopy Tours"/></a>
+                           <!--<a href="http://www.dantalodge.com/" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/img/logo-corcovado.png" alt="Corcovado"/></a>-->
+                           <!--<a href="http://www.canopycostarica.com/" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/img/logo-sky.png" alt="Sky mountain"/></a>-->
+                           <!--<a href="http://antiguacanopytours.com/" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/img/logo-antigua.png" alt="Antigua Canopy Tours"/></a>-->
                            
                            <a href="http://www.diamanteecoadventurepark.com/" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/img/logo-diamante.png" alt="Diamante Park"/></a>
                            <a href="http://www.hotelpuntaislita.com/" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/img/logo-punta-islita.png" alt="Punta Islita"/></a>
+                            <a href="http://dokaestate.com/" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/img/logo-doka.png" alt="Doka Estate"/></a>
+                             <a href="http://www.elsilenciolodge.com/" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/img/logo-elsilencio.jpg" alt="El Silencio Lodge"/></a>
 
 
                        </div>

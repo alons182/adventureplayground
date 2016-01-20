@@ -15,20 +15,22 @@
     </head>
     <body <?php body_class(); ?>>
         <div class="top">
-            <div class="inner">
+            <!--<div class="inner">-->
                 <div class="top__languages">
                     <a class="languages-en" href="#" data-lang="en">English</a> |
                     <a class="languages-es" href="#" data-lang="es">Spanish</a>
                 </div>
+                <span><img src="<?php echo get_template_directory_uri();  ?>/img/WBA.png" alt="We Build Adventure" /></span>
                 <div class="top__social">
-                     <span>We Build Adventure</span>
-                     <a href="https://www.facebook.com/CANOPYZIPLINETOURS?fref=ts" class="top__social__link"><i class="icon-facebook"></i></a>
+                     
+                     <a href="https://www.facebook.com/CANOPYZIPLINETOURS?fref=ts" class="top__social__link facebook"><!--<i class="icon-facebook"></i>--></a>
+                     <a href="#" class="top__social__link youtube"><!--<i class="icon-youtube">--></i></a>
                      <!--<a href="#" class="top__social__link"><i class="icon-twitter"></i></a>
                      <a href="#" class="top__social__link"><i class="icon-google-plus"></i></a>
-                     <a href="#" class="top__social__link"><i class="icon-youtube"></i></a>-->
+                     -->
                 </div>
 
-            </div>
+            <!--</div>-->
         </div>
         <header class="header">
             <span class="header-rope"></span>

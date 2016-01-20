@@ -693,27 +693,48 @@ img {
   z-index: 0;
   position: relative;
 }
+.top span {
+  display: inline-block;
+  padding-top: 5px;
+}
+.top span img {
+  display: block;
+}
 .top__social {
   display: inline-block;
   vertical-align: middle;
+  position: absolute;
+  right: 1rem;
 }
 .top__social__link {
-  padding: 0.5rem;
-  line-height: 50px;
-  font-size: 1.5rem;
+/*padding .5rem
+			line-height 50px
+			font-size 1.5rem*/
   color: #fff;
+  display: inline-block;
+  color: #fff;
+  width: 55px;
+  height: 50px;
+  background-image: url("img/sprite_social.png");
+  background-repeat: no-repeat;
 }
 .top__social__link:hover {
   color: #51b344;
 }
-.top__social span {
-  color: #fff;
+.top__social__link.facebook {
+  background-position: 0 0;
+}
+.top__social__link.youtube {
+  background-position: -60px -54px;
 }
 .top__languages {
   display: inline-block;
   vertical-align: middle;
   color: #fff;
   margin-right: 1rem;
+  position: absolute;
+  left: 1rem;
+  line-height: 50px;
 }
 .top__languages a {
   color: #fff;
@@ -776,7 +797,7 @@ img {
 }
 .header__logo {
   display: block;
-  padding-top: 2.5rem;
+  padding-top: 3rem;
   width: 40%;
   margin: 0 auto;
 }
@@ -876,7 +897,7 @@ img {
   }
   .header__logo {
     width: 200px;
-    padding-top: 0;
+    padding-top: 1rem;
   }
   .header__menu {
     text-align: center;
@@ -1107,6 +1128,7 @@ img {
 }
 .content .inner {
   background-color: #fff;
+  overflow: hidden;
 }
 .content .inner ul {
   margin-left: 45px;
@@ -1303,6 +1325,14 @@ img {
   left: auto;
   right: 0;
 }
+.map__label-province.label-diamante {
+  left: 32px;
+  top: 96px;
+  padding-right: 10px;
+/*&:before
+				left auto 
+				right 0	*/
+}
 .map__label-province.label-teleatlantico {
   left: 210px;
   top: 110px;
@@ -1322,6 +1352,10 @@ img {
 }
 .map__label-province.label-antigua {
   top: 390px;
+  left: 100px;
+}
+.map__label-province.label-circo {
+  top: 410px;
   left: 100px;
 }
 .map__label-province.label-rawacala {

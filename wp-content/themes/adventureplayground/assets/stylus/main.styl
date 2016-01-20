@@ -119,25 +119,44 @@ img
 	text-align center
 	z-index 0
 	position relative
-	
+	span 
+		display inline-block
+		padding-top 5px
+		img
+			display block
 	&__social
 		display inline-block
 		vertical-align middle
+		position absolute
+		right 1rem
 		&__link
-			padding .5rem
+			/*padding .5rem
 			line-height 50px
-			font-size 1.5rem
+			font-size 1.5rem*/
 			color white
+			display inline-block
+			color #fff
+			width 55px
+			height 50px
+			background-image url('img/sprite_social.png')
+			background-repeat no-repeat
+
 			
 			&:hover
 				color verde2
-		span 
-			color white
+			&.facebook
+				background-position 0 0
+			&.youtube
+				background-position -60px -54px
+		
 	&__languages
 		display inline-block
 		vertical-align middle
 		color white
 		margin-right 1rem
+		position absolute
+		left 1rem
+		line-height 50px
 		a 
 			color white
 			&:hover
@@ -190,7 +209,7 @@ img
 	
 	&__logo
 		display block
-		padding-top 2.5rem
+		padding-top 3rem
 		width 40%
 		margin 0 auto
 	&__menu
@@ -280,7 +299,7 @@ img
 		&__logo
 			//float left
 			width 200px
-			padding-top 0
+			padding-top 1rem
 		&__menu
 			text-align center
 			display block !important
@@ -468,8 +487,10 @@ img
 	padding-top 2rem 
 	padding-bottom 2rem
 	background-color white
+	
 	.inner
 		background-color white
+		overflow hidden
 		ul 
 			margin-left 45px
 			margin-bottom 15px
@@ -623,7 +644,14 @@ img
 			padding-right 10px
 			&:before
 				left auto 
-				right 0	
+				right 0
+		&.label-diamante
+			left 32px
+			top 96px
+			padding-right 10px
+			/*&:before
+				left auto 
+				right 0	*/	
 			
 		&.label-teleatlantico
 			left 210px
@@ -643,6 +671,9 @@ img
 				
 		&.label-antigua
 			top 390px 
+			left 100px
+		&.label-circo
+			top 410px 
 			left 100px
 		&.label-rawacala
 			top 43px 

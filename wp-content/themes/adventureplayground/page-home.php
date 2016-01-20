@@ -110,6 +110,12 @@
                                           <div class="content-project">
                                             <h1 style="text-align:center;">Loading...</h1>
                                           </div>
+                                        </div>    
+                                        <a href="#diamante" class="map__label-province label-diamante" data-effect="mfp-zoom-out" data-project="482">Diamante Eco Adventure Park</a>
+                                        <div id="diamante" class="white-popup mfp-hide mfp-with-anim" data-project="482">
+                                          <div class="content-project">
+                                            <h1 style="text-align:center;">Loading...</h1>
+                                          </div>
                                         </div>      
 
                                         
@@ -126,7 +132,13 @@
                                         <div class="content-project">
                                           <h1 style="text-align:center;">Loading...</h1>
                                         </div>
-                                      </div> 
+                                      </div>
+                                      <a href="#circo" class="map__label-province label-circo" data-effect="mfp-zoom-out" data-project="475">Canopy Circo del Aire</a>
+                                      <div id="circo" class="white-popup mfp-hide mfp-with-anim" data-project="475">
+                                        <div class="content-project">
+                                          <h1 style="text-align:center;">Loading...</h1>
+                                        </div>
+                                      </div>  
                                    </div>
                             </div>
                             <div class="map__country animated zoomIn" data-honduras>
