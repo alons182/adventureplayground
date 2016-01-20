@@ -694,7 +694,7 @@ img {
   position: relative;
 }
 .top span {
-  display: inline-block;
+  display: none;
   padding-top: 5px;
 }
 .top span img {
@@ -741,6 +741,11 @@ img {
 }
 .top__languages a:hover {
   color: #51b344;
+}
+@media screen and (min-width: 600px) {
+  .top span {
+    display: inline-block;
+  }
 }
 @media screen and (min-width: 980px) {
   body {
@@ -846,6 +851,7 @@ img {
 }
 .header__menu .sub-menu .menu-item {
   display: block;
+  margin-left: 20px;
 }
 .header__menu .sub-menu .menu-item:before {
   display: none;
@@ -932,6 +938,9 @@ img {
     position: absolute;
     width: 200px;
   }
+  .header__menu .sub-menu .menu-item {
+    margin-left: 0;
+  }
   .header__btn-menu {
     display: none;
   }
@@ -942,6 +951,19 @@ img {
 @media screen and (min-width: 1240px) {
   .header .inner {
     z-index: 4;
+  }
+}
+.btn-your-adventure {
+  position: absolute;
+  left: 100px;
+  top: -55px;
+  display: none;
+  background-color: #51b344;
+  border-color: #51b344;
+}
+@media screen and (min-width: 1024px) {
+  .btn-your-adventure {
+    display: block;
   }
 }
 .banner {

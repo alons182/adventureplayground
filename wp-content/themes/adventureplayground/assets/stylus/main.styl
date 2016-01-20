@@ -120,7 +120,7 @@ img
 	z-index 0
 	position relative
 	span 
-		display inline-block
+		display none
 		padding-top 5px
 		img
 			display block
@@ -161,7 +161,10 @@ img
 			color white
 			&:hover
 				color verde2
-				
+@media screen and (min-width: 600px)
+	.top
+		span
+			display inline-block				
 @media screen and (min-width: 980px)
 	body
 		font-size 100%
@@ -251,8 +254,10 @@ img
 		.sub-menu
 			background-color verde
 			//position absolute
+			
 			.menu-item
 				display block
+				margin-left 20px
 				&:before
 					display none
 		&__ul 
@@ -328,6 +333,8 @@ img
 				display none
 				position absolute
 				width 200px
+				.menu-item
+					margin-left 0
 				
 		&__btn-menu
 			display none
@@ -337,7 +344,17 @@ img
 	.header
 		.inner
 			z-index 4 
-			
+
+.btn-your-adventure
+	position absolute
+	left 100px
+	top -55px
+	display none
+	background-color verde2
+	border-color verde2	
+@media screen and (min-width: 1024px)
+	.btn-your-adventure
+		display block			
 .banner
 	position relative
 	top 0
