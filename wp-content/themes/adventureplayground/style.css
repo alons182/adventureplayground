@@ -966,6 +966,16 @@ img {
   background-color: #51b344;
   border-color: #51b344;
 }
+.btn-brochure-logo {
+  display: inline-block;
+}
+.btn-brochure-logo:hover {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
 @media screen and (min-width: 1024px) {
   .btn-your-adventure {
     display: block;
