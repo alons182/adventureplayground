@@ -955,8 +955,13 @@ img {
 }
 .btn-your-adventure {
   position: absolute;
-  left: 100px;
-  top: -55px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  top: 0;
   display: none;
   background-color: #51b344;
   border-color: #51b344;

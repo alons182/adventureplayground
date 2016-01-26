@@ -24,6 +24,7 @@
                            <a href="http://www.hotelpuntaislita.com/" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/img/logo-punta-islita.png" alt="Punta Islita"/></a>
                             <a href="http://dokaestate.com/" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/img/logo-doka.png" alt="Doka Estate"/></a>
                              <a href="http://www.elsilenciolodge.com/" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/img/logo-elsilencio.jpg" alt="El Silencio Lodge"/></a>
+                               <a href="http://acctcertifications.com/" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/img/logo-acct.jpg" alt="ACCT"/></a>
 
 
                        </div>
