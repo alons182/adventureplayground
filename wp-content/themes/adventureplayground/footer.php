@@ -31,7 +31,11 @@
                        
                        <div class="footer__contact">
                            <h4>Get in touch</h4>
-                           <strong><a href="tel:(506) 2257-4180"><i class="icon-phone"></i>  (506) 2257-4180</a> </strong><br/> Free toll number
+                           <strong><a href="tel:(506) 2282-0167"><i class="icon-phone"></i>  Office: (506) 2282-0167</a> </strong><br/>
+                          <strong><a href="tel:(506) 8425-9899"><i class="icon-phone"></i>  Sales: (506) 8425-9899</a> </strong>
+                           <br/> Free toll number
+ 
+
 
 
                            <br>
