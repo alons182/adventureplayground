@@ -155,7 +155,7 @@
 
                 $.ajax({
                       type: 'GET',
-                      url: '/adventureplayground/api/get_post/?post_id='+ post_id +'&post_type=projects',
+                      url: '/api/get_post/?post_id='+ post_id +'&post_type=projects',
                       
                       success: function(data){
                          console.log(data)

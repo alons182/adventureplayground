@@ -1086,9 +1086,6 @@ img {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-/*&__item
-				display inline-block
-				width 190px*/
   }
 }
 @media screen and (min-width: 1024px) {
@@ -1113,9 +1110,6 @@ img {
   }
   .banner__menu {
     margin-top: -3rem;
-/*&__item
-				width 207px
-				font-size 13px*/
   }
 }
 @media screen and (min-width: 1150px) {
