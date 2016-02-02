@@ -7,6 +7,15 @@
 
 
         <main class="main">
+            <section class="content main-home">
+                <div class="inner">
+                    
+                    <?php get_template_part( 'templates/loop' ); ?> 
+
+                
+                </div>
+               
+            </section>
             <section class="map">
                 <div class="inner">
                     <h1 class="txt-center">Projects</h1>

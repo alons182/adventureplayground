@@ -202,13 +202,13 @@ img
 		right 0
 .header
 	//background-color rgba(0, 0, 0, .75)
-	position absolute
+	position static//absolute
 	padding-top 0
 	left 0
 	right 0
 	padding-bottom 1rem
 	height auto
-	z-index 1
+	z-index 10
 	
 	&__logo
 		display block
@@ -222,6 +222,7 @@ img
 		left 0
 		right 0
 		top 26px
+		
 		//text-align center
 		padding-left 1rem
 		padding-right 1rem
@@ -264,6 +265,7 @@ img
 			padding-top 15px		
 
 	&__contact
+		display none
 		font-size 2rem
 		color white
 		text-align center
@@ -285,9 +287,12 @@ img
 			background-color verde2
 @media screen and (min-width: 768px)
 	.header
+		position absolute
 		&__logo
 			width 200px
 			padding-top 3rem
+		&__contact
+			display block
 @media screen and (min-width: 1024px)
 	.header
 		//overflow hidden
@@ -384,18 +389,20 @@ img
 			display block
 			pointer-events none
 			content ""
-			opacity 1
+			opacity 0.6 //1
 			background-color: rgba(0,0,0,0.75);
 			background-repeat: repeat;
 			height 550px
 			
 
 		#bgvid
+			display none
 			width 100%
 			background-size cover
 	&-links
 		position absolute
-		right 25px
+		right 0//25px
+		left 0
 		top -36px
 		a 
 			display inline-block
@@ -441,7 +448,14 @@ img
 		&__menu
 			display flex
 			justify-content space-between
-			flex-wrap wrap 
+			flex-wrap wrap
+			
+		&__video
+			#bgvid
+				display block
+		&-links
+			right 25px
+			left auto 
 
 
 @media screen and (min-width: 1024px)
@@ -505,6 +519,8 @@ img
 		ul 
 			margin-left 45px
 			margin-bottom 15px
+	
+		
 .contact-form
 	label
 		display block
@@ -525,8 +541,14 @@ img
 	> div
 		margin-bottom 1rem
 .content-project
-	text-align center	
+	text-align center
+			
+@media screen and (min-width: 900px)
+	.content 
+		&.main-home
+			display none	
 .map 
+	display none
 	&__container
 		position relative
 		text-align center
@@ -538,6 +560,7 @@ img
 		background url('img/world-map.png') no-repeat
 		width 1024px
 		height 546px
+		
 	&__label-country
 		position absolute
 		font-size 12px
@@ -773,7 +796,8 @@ img
 			width 400px
 
 @media screen and (min-width: 900px)
-	.map 
+	.map
+		display block 
 		&__container
 			overflow hidden
 

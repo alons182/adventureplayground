@@ -37,7 +37,7 @@
             <div class="inner">
                 <a href="<?php echo home_url( '/' ); ?>" class="header__logo"><img src="<?php echo get_template_directory_uri();  ?>/img/logo.png" alt="Logo" class="header__logo__img" /></a>
                 <div class="header__contact">
-                        (506) 2257-4180 
+                        (506) 2282-0167
                 </div>
                   <?php get_template_part( 'templates/nav' ); ?>
                 <button id="btn-menu" class="header__btn-menu">Menu</button>

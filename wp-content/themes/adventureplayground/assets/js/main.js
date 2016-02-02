@@ -7,7 +7,13 @@
       //$('input[type=radio], input[type=checkbox],input[type=number], select').uniform();
     
       //new WOW().init();
-      
+      $(window).load(function(){
+          if(! $('body').hasClass('home'))
+          {
+            $.scrollTo('.main', 800);
+            
+          }
+      });
        btnMenu.on('click', function(){
             menu.toggle();
            
