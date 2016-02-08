@@ -17,8 +17,8 @@
         <div class="top">
             <!--<div class="inner">-->
                 <div class="top__languages">
-                    <a class="languages-en" href="#" data-lang="en">English</a> |
-                    <a class="languages-es" href="#" data-lang="es">Spanish</a>
+                    <a class="languages-en" href="/en" data-lang="en">English</a> |
+                    <a class="languages-es" href="/es" data-lang="es">Español</a>
                 </div>
                 <span><img src="<?php echo get_template_directory_uri();  ?>/img/WBA.png" alt="We Build Adventure" /></span>
                 <div class="top__social">

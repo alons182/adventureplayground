@@ -10,7 +10,9 @@
             <section class="content main-home">
                 <div class="inner">
                     
-                    <?php get_template_part( 'templates/loop' ); ?> 
+                    <?php rewind_posts(); ?>
+                    <?php query_posts( 'page_id=70' ); ?>
+                  <?php get_template_part( 'templates/loop' ); ?> 
 
                 
                 </div>
@@ -18,7 +20,7 @@
             </section>
             <section class="map">
                 <div class="inner">
-                    <h1 class="txt-center">Projects</h1>
+                    <h1 class="txt-center"><?php  echo (get_locale() == "es_ES") ? "Proyectos" : "Projects" ?></h1>
                    <div class="map__container">
                        
                        <div class="map__bg">
