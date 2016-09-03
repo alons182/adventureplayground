@@ -198,12 +198,12 @@ function alo_controller_path($default_path) {
 }
 
 // Change default WordPress email address
+function new_mail_from($old) {
+    return 'info@adventureplaygd.com';
+}
+function new_mail_from_name($old) {
+    return 'Adventure Playground';
+}
 add_filter('wp_mail_from', 'new_mail_from');
 add_filter('wp_mail_from_name', 'new_mail_from_name');
  
-function new_mail_from($old) {
-return 'info@adventureplaygd.com';
-}
-function new_mail_from_name($old) {
-return 'Adventure Playground';
-}
