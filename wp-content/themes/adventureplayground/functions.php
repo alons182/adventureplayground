@@ -196,3 +196,14 @@ add_filter('json_api_alo_controller_path', 'alo_controller_path');
 function alo_controller_path($default_path) {
   return get_stylesheet_directory() . '/alo_controller.php';
 }
+
+// Change default WordPress email address
+add_filter('wp_mail_from', 'new_mail_from');
+add_filter('wp_mail_from_name', 'new_mail_from_name');
+ 
+function new_mail_from($old) {
+return 'info@adventureplaygd.com';
+}
+function new_mail_from_name($old) {
+return 'Adventure Playground';
+}
