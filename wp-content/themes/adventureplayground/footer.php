@@ -33,7 +33,7 @@
                            <h4><?php  echo (get_locale() == "es_ES") ? "Ponerse en contácto" : "Get in touch" ?></h4>
                            <strong><a href="tel:(506) 2282-0167"><i class="icon-phone"></i>  <?php  echo (get_locale() == "es_ES") ? "Oficina" : "Office" ?>: (506) 2282-0167</a> </strong><br/>
                           <strong><a href="tel:(506) 8425-9899"><i class="icon-phone"></i>  <?php  echo (get_locale() == "es_ES") ? "Ventas" : "Sales" ?>: (506) 8425-9899</a> </strong>
-                           <br/> <?php  echo (get_locale() == "es_ES") ? "Numero Gratuito" : "Free toll number" ?>
+                           
  
 
 
@@ -57,10 +57,10 @@
                       </div>
 
                      <div class="footer__social">
-                         <a href="#" class="footer__social__link"><i class="icon-facebook"></i></a>
-                         <a href="#" class="footer__social__link"><i class="icon-twitter"></i></a>
+                         <a href="https://www.facebook.com/CANOPYZIPLINETOURS" class="footer__social__link" target="_blank"><i class="icon-facebook"></i></a>
+                         <!--<a href="#" class="footer__social__link"><i class="icon-twitter"></i></a>
                          <a href="#" class="footer__social__link"><i class="icon-google-plus"></i></a>
-                         <a href="#" class="footer__social__link"><i class="icon-youtube"></i></a>
+                         <a href="#" class="footer__social__link"><i class="icon-youtube"></i></a>->
                     </div>
 
                   </div>

@@ -23,8 +23,8 @@
                 <span><img src="<?php echo get_template_directory_uri();  ?>/img/WBA.png" alt="We Build Adventure" /></span>
                 <div class="top__social">
                      
-                     <a href="https://www.facebook.com/CANOPYZIPLINETOURS?fref=ts" class="top__social__link facebook"><!--<i class="icon-facebook"></i>--></a>
-                     <a href="#" class="top__social__link youtube"><!--<i class="icon-youtube">--></i></a>
+                     <a href="https://www.facebook.com/CANOPYZIPLINETOURS" class="top__social__link facebook" target="_blank"><!--<i class="icon-facebook"></i>--></a>
+                     <!--<a href="#" class="top__social__link youtube"><i class="icon-youtube">--><!--</i></a>-->
                      <!--<a href="#" class="top__social__link"><i class="icon-twitter"></i></a>
                      <a href="#" class="top__social__link"><i class="icon-google-plus"></i></a>
                      -->
