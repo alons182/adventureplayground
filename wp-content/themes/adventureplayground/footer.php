@@ -32,7 +32,7 @@
                        <div class="footer__contact">
                            <h4><?php  echo (get_locale() == "es_ES") ? "Ponerse en contácto" : "Get in touch" ?></h4>
                            <strong><a href="tel:(506) 2282-0167"><i class="icon-phone"></i>  <?php  echo (get_locale() == "es_ES") ? "Oficina" : "Office" ?>: (506) 2282-0167</a> </strong><br/>
-                          <strong><a href="tel:(506) 8425-9899"><i class="icon-phone"></i>  <?php  echo (get_locale() == "es_ES") ? "Ventas" : "Sales" ?>: (506) 8425-9899</a> </strong>
+                          <strong><a href="tel:(506) 8425-9899"><i class="icon-phone"></i>  <?php  echo (get_locale() == "es_ES") ? "Ventas" : "Sales" ?>: (506) 8383-9724</a> </strong>
                            
  
 
